@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+mlartifacts/
+mlruns/
+mlflow.db
+mlruns.db
+temp_artifacts/
+scored_predictions.csv
+*.pyc
