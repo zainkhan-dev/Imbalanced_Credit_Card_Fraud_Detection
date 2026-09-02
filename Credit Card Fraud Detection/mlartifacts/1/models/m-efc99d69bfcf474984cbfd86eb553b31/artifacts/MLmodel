@@ -1,0 +1,23 @@
+artifact_path: mlflow-artifacts:/1/models/m-efc99d69bfcf474984cbfd86eb553b31/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-efc99d69bfcf474984cbfd86eb553b31
+model_size_bytes: 17116
+model_uuid: m-efc99d69bfcf474984cbfd86eb553b31
+prompts: null
+run_id: adef061f80314d788f88ba7716fec5cc
+utc_time_created: '2026-09-01 11:41:15.418964'
